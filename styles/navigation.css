@@ -17,6 +17,7 @@
   margin: 20px;
   display: flex;
   padding: 60px;
+  overflow: scroll;
   position: absolute;
   align-self: stretch;
   align-items: center;
