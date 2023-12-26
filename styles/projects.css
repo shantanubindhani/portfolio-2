@@ -132,7 +132,6 @@
   height: auto;
   display: flex;
   padding: 2vw;
-  flex-wrap: wrap;
   align-self: center;
   align-items: flex-start;
   border-color: #a4a4a4;
