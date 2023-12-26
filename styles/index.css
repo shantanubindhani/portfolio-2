@@ -1,0 +1,119 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #131313;
+}
+.home-container1 {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 20px;
+  display: flex;
+  padding: 60px;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  border-color: #a4a4a4;
+  border-style: double;
+  border-width: 10px;
+  flex-direction: column;
+  background-color: #191919;
+}
+.home-text {
+  color: #a4a4a4;
+  width: 65vw;
+  height: fit-content;
+  z-index: 1;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Fira Code";
+  line-height: 2;
+  margin-bottom: 80px;
+  letter-spacing: 0.5px;
+}
+.home-text01 {
+  font-size: 2vw;
+  line-height: 1.6;
+}
+.home-text02 {
+  font-size: 35px;
+  line-height: 1.6;
+}
+.home-text03 {
+  font-size: 2.2vw;
+  font-style: normal;
+  font-family: "Fira Code";
+  font-weight: 700;
+  line-height: 1.6;
+}
+.home-text04 {
+  line-height: 1.6;
+}
+.home-text05 {
+  font-size: 3vw;
+  font-style: normal;
+  font-family: "Fira Code";
+  font-weight: 800;
+  line-height: 2;
+}
+.home-text07 {
+  font-size: 1.3vw;
+  line-height: 1;
+}
+.home-container2 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-button {
+  color: transparent;
+  width: 100px;
+  height: 100px;
+  rotate: 45deg;
+  outline: 20px double #a4a4a4;
+  align-self: center;
+  transition: 0.3s;
+  margin-bottom: 0px;
+  background-color: #a4a4a4;
+}
+.home-button:hover {
+  border-radius: 50%;
+  outline-offset: 20px;
+}
+.home-text09 {
+  color: #a4a4a4;
+  width: fit-content;
+  height: fit-content;
+  font-size: 2.3vw;
+  font-family: "Fira Code";
+}
+.home-button1 {
+  top: 42px;
+  right: 47px;
+  outline: 2px solid #a4a4a4;
+  position: absolute;
+  transition: 0.3s;
+  background-color: transparent;
+}
+.home-button1:hover {
+  outline-offset: 5px;
+}
+.home-text10 {
+  color: #a4a4a4;
+  font-size: 2.5vw;
+  background: none;
+  font-family: "Fira Code";
+  background-image: none;
+}
