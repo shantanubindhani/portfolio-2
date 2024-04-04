@@ -1,0 +1,17 @@
+*{
+    color: #dadada;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+}
+/* for large font */
+.f-l{
+    font-size: clamp(1.5em, .8028em + 1.831vw, 2em);
+}
+/* for medium font */
+.f-m{
+    font-size: clamp(1em, 0.8028em + 1.831vw, 1.5em);
+}
+/* for small font */
+.f-s{
+    font-size: clamp(0.5em, 0.8028em + 1.831vw, 1em);
+}
